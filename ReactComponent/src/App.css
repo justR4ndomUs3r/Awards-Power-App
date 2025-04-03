@@ -1,0 +1,468 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+body, .component__wrapper * {
+  font-family: 'Poppins', sans-serif!important;
+}
+
+.component__wrapper{
+  width: 100%;
+  height: 100%;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  background: #000000;
+  color: #FFFFFF;
+}
+
+div:has(> .component__wrapper) {
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.component__wrapper .DXnavigation{
+  background: #000000;
+  padding:15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.DXnavigation__user, .DXnavigation__logo{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  font-weight: bold;
+}
+
+.DXnavigation__user * {
+  text-wrap: nowrap;
+}
+.DXnavigation__user span.text{
+  font-weight: 500;
+  font-size:12px;
+  margin:0 10px;
+}
+
+.relative{
+  position: relative;
+}
+
+button{
+  font-weight: bold!important;
+}
+
+.DXcontent{
+  overflow: hidden;
+}
+
+.DXcontent__flow{
+  width: 100%;
+
+  background: #FFFFFF;
+  position: relative;
+}
+
+svg.absoluteImage{
+  position: absolute;
+  height: 100%;
+  width: auto;
+  opacity: 1;
+}
+
+.DXcontent__flow.DXcontent__userflow{
+  background: #F0F0F0;
+  max-height: 480px;
+  height: 480px;
+  padding-top: 20px;
+  padding-left: 10px;
+  width: calc(100% - 20px);
+  padding-right: 10px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.DXcontent__flow.DXcontent__history{
+  background: #000000;
+  max-height:100%;
+}
+
+.custom-slider{
+  width: 340px;
+  background-color: transparent!important;
+  margin:20px auto;
+  height: 400px!important;
+  overflow: visible!important;
+}
+
+.DXcontent__flow .rs-carousel-content{
+  overflow: visible!important;
+  z-index: 100;
+}
+
+.DXcontent__flow .carousel__slide{
+  display: flex;
+  flex-direction: row;
+  width:fit-content;
+  background: transparent!important;
+}
+
+.DXcontent__flow .rs-carousel-slider{
+  background-color:transparent!important;
+}
+
+.DXcontent__flow .rs-carousel-placement-bottom .rs-carousel-toolbar{
+  bottom: -25px!important;
+}
+
+.DXcontent__flow .rs-card img {
+  height: 160px;
+  width: auto;
+  object-fit: cover;
+  object-position: top;
+  margin-bottom: 50px;
+}
+
+.rs-card-body {
+  text-overflow: ellipsis;
+  height: fit-content;
+  overflow: hidden;
+  padding-top:0;
+  font-size: 12px;
+  min-height: fit-content;
+}
+
+.content__card{
+  background: transparent !important;
+  height: 414px;
+  margin-bottom: 30px;
+  padding: 0 15px;
+}
+
+.content__card>div{
+  border: none;
+  background-color: #262626;
+  margin:0;
+  height:100%;
+  border-radius:10px;
+}
+
+.content__card.disabled>div{
+  pointer-events: none;
+}
+
+.content__card.disabled>div:after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: #f0f0f0;
+  position: absolute;
+  opacity: .4;
+}
+
+.DXcontent__flow .rs-card-footer{
+  margin:auto 0 0 0;
+  font-weight: bold;
+}
+
+.DXcontent__flow .rs-card-header{
+  text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.DXcontent__flow .rs-nav-tabs.rs-nav-horizontal > .rs-nav-item{
+  color:white;
+  border-radius:0;
+  height:38px;
+  width:135px;
+  border:none;
+  font-weight:500!important;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.DXcontent__flow .rs-nav-tabs.rs-nav-horizontal > .rs-nav-item.rs-nav-item-active, .DXcontent__flow .rs-nav-tabs.rs-nav-horizontal > .rs-nav-item:hover{
+  background-color: #E3134B;
+}
+
+.DXcontent__flow .rs-tabs{
+  gap:0!important;
+}
+
+.DXcontent__flow .rs-tabs-content {
+  height: 170px;
+  overflow-y: scroll;
+  background: #262626;
+}
+
+.DXcontent__flow .rs-panel-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.DXcontent__flow h2.rs-panel-header.rs-heading{
+  padding:0;
+}
+
+.DXcontent__flow .rs-panel-header + .rs-panel-body-collapse .rs-panel-body{
+  padding:10px;
+}
+
+.DXcontent__flow h2.rs-panel-header.rs-heading{
+  margin: 0 0 10px 0;
+}
+
+.DXcontent__flow h2.rs-panel-header.rs-heading, .DXcontent__flow .rs-panel-header + .rs-panel-body-collapse .rs-panel-body  {
+  background:transparent;
+  color:white;
+  font-weight: 500;
+  font-size:12px;
+  padding: 0;
+}
+
+.DXcontent__flow h2.rs-panel-header.rs-heading .rs-panel-btn{
+  padding:0;
+}
+
+.DXcontent__flow .rs-panel-group > .rs-panel + .rs-panel:before{
+  display: none!important;
+}
+
+.rs-tabs{
+  align-items: stretch;
+}
+
+.rs-panel-btn:active, .rs-panel-btn:focus, .rs-panel-btn:hover{
+  background: inherit!important;
+  color: inherit!important;
+}
+
+.DXcontent__flow .rs-panel-group > .rs-panel {
+  padding: 20px 50px;
+  margin: 0;
+  border-bottom:1px solid #333333;
+}
+
+.DXcontent__flow .rs-panel-header + .rs-panel-body-collapse .rs-panel-body p {
+  text-align: left;
+  margin: 0;
+}
+
+.DXcontent__flow .rs-input-group {
+  display: flex;
+  justify-content: flex-end;
+  border: none;
+  gap: 10px;
+  width: fit-content;
+  margin: 10px 0px 0px auto;
+  border-radius: 999px !important;
+  overflow: hidden;
+  align-items: center;
+}
+
+.DXcontent__flow .rs-input-group.custom-input-number{
+  margin:0;
+  border: 1px solid white;
+}
+
+.DXcontent__flow .rs-input-group.custom-input-number input{
+  background-color: #262626;
+  color:white;
+  font-weight:500;
+  padding: 5px;
+}
+
+.DXcontent__body {
+  display: flex
+;
+  text-align: left;
+  justify-content: space-between;
+}
+
+.rs-input-group:focus-within, .rs-input-group:not(.rs-input-group-disabled).rs-input-group-focus{
+  outline:none!important;
+}
+
+.custom-input-number input {
+  text-align: center;
+  font-weight: bold;
+  max-width: 100px;
+}
+
+.DXcontent__flow .rs-input-number-btn-group-vertical{
+  display: none;
+}
+
+.DXcontent__flow .rs-message{
+  z-index: 100;
+}
+
+.rs-tabs{
+  gap:0;
+}
+
+.rs-nav-tabs.rs-nav-horizontal{
+  display: flex;
+  margin: 0 50px;
+}
+
+.rs-nav-tabs.rs-nav-horizontal .rs-nav-bar{
+  display: none;
+}
+
+.rs-tag.coinTag{
+  border-radius:999px;
+  background:#7572FA;
+  color:white;
+  min-width:70px;
+  font-size:12px;
+  text-align: center;
+}
+
+.cardCoin.rs-tag {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  border-radius: 999px;
+  min-width: 65px;
+  background: #0300A5;
+  color: white;
+  font-weight: 700;
+  font-size: 12px;
+  text-align: center;
+}
+
+
+.DXtab__row .rs-tag.status{
+  background-color: #F0F0F0;
+  color: black;
+  border-radius: 999px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding: 2px 15px;
+  font-size:12px;
+}
+
+.DXtab__row .rs-tag.status.accept{
+  background-color: #22F5AC;
+  color:black;
+}
+
+.DXtab__row .rs-tag.status.cancel{
+  background-color: #E3134B;
+  color:white;
+}
+
+.listCoin.rs-tag {
+  background: transparent;
+  color: white;
+  font-size: 12px;
+}
+
+.DXtab__row p, .DXtab__row div span.date, .DXtab__row span.date{
+  font-weight: 500;
+  font-size:12px;
+  color:white;
+}
+
+.DXtab__row span.date{
+  margin-right:10px;
+}
+
+.rs-loader-spin:before {
+  border-color: white;
+}
+
+.rs-loader-spin:after {
+  border-color: #333333 transparent transparent;
+}
+
+.DXcontent__history .rs-nav button:last-of-type {
+  margin-right: 133px;
+}
+
+.DXcontent__history .rs-nav button:nth-child(4) {
+  margin-left:auto;
+}
+
+button.getButton {
+  width: 150px;
+  height: 40px;
+  font-size: 14px;
+  border-radius: 9999px;
+  background: transparent;
+  border: 1px solid white;
+  font-weight: 500 !important;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.rs-card-header, .rs-card-body, .rs-card-footer{
+  padding-left:25px;
+  padding-right:25px;
+}
+
+.rs-card-footer{
+  padding-bottom:50px;
+}
+
+button.rs-btn {
+  border-radius: 999999px !important;
+  font-weight: 500 !important;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  background: transparent;
+  border: 1px solid white;
+  padding: 5px 20px;
+  transition: all .2s ease-in-out;
+}
+
+button.rs-btn.rs-btn-green:hover, button.rs-btn.rs-btn-green:focus, button.rs-btn.rs-btn-green:active {
+  background-color: #22F5AC;
+  color:black;
+  border-color:#22F5AC;
+}
+
+button.rs-btn.rs-btn-red:hover, button.rs-btn.rs-btn-red:focus, button.rs-btn.rs-btn-red:active {
+  background-color: #E3134B;
+  color:white;
+  border-color:#E3134B;
+}
+
+button.getButton:hover, button.getButton:focus, button.getButton:active {
+  background-color: white!important;
+  color:black!important;
+  border-color: white!important;
+}
+
+.digi_modal .rs-modal-content{
+  background-color: #262626;
+  color:white;
+}
+
+.digi_modal .rs-modal-content h4{
+  color:white;
+}
+
+.digi_modal .rs-modal-content button.rs-btn:hover, .digi_modal .rs-modal-content button.rs-btn:focus, .digi_modal .rs-modal-content button.rs-btn:active{
+  background-color: #7572FA;
+  border-color:#7572FA;
+}
+
+.helpIcon{
+  color:white!important;
+  padding:0!important;
+  border:none!important;
+}
+
+.helpIcon:active, .helpIcon:focus{
+  background-color: transparent!important;
+  border:none!important;
+}
+
+
+.helpIcon:hover{
+  background-color: #E3134B!important;
+}
