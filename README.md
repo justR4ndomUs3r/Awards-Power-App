@@ -1,6 +1,5 @@
 # Awards-Power-App
-## Live demo
-[See it live!](https://awards.pixseen.com/)
+## [Live demo](https://awards.pixseen.com/)
 
 
 This example shows Custom Power App Component Framework (pcf) with React and Power Automate. 
