@@ -1,4 +1,8 @@
 # Awards-Power-App
+## Live demo
+http://pixseen.com:8181/
+
+
 This example shows Custom Power App Component Framework (pcf) with React and Power Automate. 
 
 Awards app is the pcf component for Canvas Power app that cooporate with Sharepoint Lists, Power automate and Microsoft Teams to serve the users ability to gives Teams Praise to each other and gain the company points from it to buy some awards.
@@ -25,6 +29,7 @@ Fill the fields as provided
   TriggerFlow: <just leave it, it's not needed in dev env>
   Awards: <Make sure this field is empty and app will load default awards or paste value from the awards.txt file>
   Dataset: Load the 'dataset.csv' file and Apply changes to see the results.
+
 
 In the production app: 
 username and user ID are loaded from function User().username and User().email
