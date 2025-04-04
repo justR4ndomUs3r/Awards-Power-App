@@ -36,10 +36,12 @@ Dataset is loaded from the Sharepoint List
   
 
 ### Setting up the production version
-<img width="1434" alt="image" src="https://github.com/user-attachments/assets/49a9ab57-115f-4ca8-948f-507a0399d07b" />
+<img width="1396" alt="430116551-f22ad6a4-f5d4-462a-8338-6e0be62b2209" src="https://github.com/user-attachments/assets/22b4cd4f-0719-47b4-bfcd-0576a9553412" />
+
 
 ### Live screenshots
-<img width="1396" alt="image" src="https://github.com/user-attachments/assets/f22ad6a4-f5d4-462a-8338-6e0be62b2209" />
+<img width="1434" alt="430117955-49a9ab57-115f-4ca8-948f-507a0399d07b" src="https://github.com/user-attachments/assets/90459d58-6d62-4a11-b72f-d0200b7c6b95" />
+
 
 ### Power Automate Flows used in the production
 1. Flow that get's the Awards Sharepoint List and converts data and attachments into the JSON string.
