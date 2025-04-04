@@ -1,6 +1,6 @@
 # Awards-Power-App
 ## Live demo
-http://pixseen.com:8181/
+[See it live!](https://awards.pixseen.com/)
 
 
 This example shows Custom Power App Component Framework (pcf) with React and Power Automate. 
@@ -16,10 +16,9 @@ Admin user has all of the User functionalities. If someone gives the Praise to t
 This is just a source code not the whole pcf project to see how it works go to the live demo
 
 ## Live demo
-http://pixseen.com:8181/
+[See it live!](https://awards.pixseen.com/)
 
-*This is my private website, only this port is not secure because it's not yet public. 
-**In the developer mode dataset operation doesn't work so any actions can't be done properly
+*In the developer mode dataset operation doesn't work so any actions can't be done properly
 
 ### Set up live demo component 
 Fill the fields as provided
