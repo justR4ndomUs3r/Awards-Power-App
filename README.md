@@ -10,7 +10,7 @@ Fill the fields as provided
   
   TriggerFlow: <just leave it, it's not needed in dev env>
   
-  Awards: <Make sure this field is empty and app will load default awards or paste value from the awards.txt file>
+  Awards: [Make sure this field is empty and app will load default awards or paste value from the awards.txt file]
   
   Dataset: Load the 'dataset.csv' file and Apply changes to see the results.
 
