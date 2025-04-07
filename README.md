@@ -1,11 +1,17 @@
 
 ### (READ IT BEFORE) Set up live demo component 
 Fill the fields as provided
+  
   username: Daniel
+  
   userID: daniel.sz@dompany.co or mark.twin@company.co
+  
   adminID: daniel.sz@dompany.co or mark.twin@company.co
+  
   TriggerFlow: <just leave it, it's not needed in dev env>
+  
   Awards: <Make sure this field is empty and app will load default awards or paste value from the awards.txt file>
+  
   Dataset: Load the 'dataset.csv' file and Apply changes to see the results.
 
 ## Live demo
