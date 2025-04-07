@@ -14,8 +14,7 @@ Fill the fields as provided
   
   Dataset: Load the 'dataset.csv' file and Apply changes to see the results.
 
-## Live demo
-[See it live!](https://awards.pixseen.com/)
+## [Live demo!](https://awards.pixseen.com/)
 
 *In the developer mode dataset operation doesn't work so any actions can't be done properly
 
