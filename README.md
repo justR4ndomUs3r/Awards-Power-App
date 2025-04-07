@@ -1,5 +1,19 @@
+
+### (READ IT BEFORE) Set up live demo component 
+Fill the fields as provided
+  username: Daniel
+  userID: daniel.sz@dompany.co or mark.twin@company.co
+  adminID: daniel.sz@dompany.co or mark.twin@company.co
+  TriggerFlow: <just leave it, it's not needed in dev env>
+  Awards: <Make sure this field is empty and app will load default awards or paste value from the awards.txt file>
+  Dataset: Load the 'dataset.csv' file and Apply changes to see the results.
+
+## Live demo
+[See it live!](https://awards.pixseen.com/)
+
+*In the developer mode dataset operation doesn't work so any actions can't be done properly
+
 # Awards-Power-App
-## [Live demo](https://awards.pixseen.com/)
 
 
 This example shows Custom Power App Component Framework (pcf) with React and Power Automate. 
@@ -13,21 +27,6 @@ Users can give each others Prais on teams (Microsoft Teams build in functionalit
 Admin user has all of the User functionalities. If someone gives the Praise to the other user Admin gets the Workflow message in teams that he has to check the Awards App. Inside the app Admin can see the History of all requests that was made and the Pending Requests to accept or cancel them. Admin also has the information about points that the user gives to other users during the month and decide how much points should the users get from the praise. Also he can Mark the requested Awards as given.
 
 This is just a source code not the whole pcf project to see how it works go to the live demo
-
-## Live demo
-[See it live!](https://awards.pixseen.com/)
-
-*In the developer mode dataset operation doesn't work so any actions can't be done properly
-
-### Set up live demo component 
-Fill the fields as provided
-  username: Daniel
-  userID: daniel.sz@dompany.co or mark.twin@company.co
-  adminID: daniel.sz@dompany.co or mark.twin@company.co
-  TriggerFlow: <just leave it, it's not needed in dev env>
-  Awards: <Make sure this field is empty and app will load default awards or paste value from the awards.txt file>
-  Dataset: Load the 'dataset.csv' file and Apply changes to see the results.
-
 
 In the production app: 
 username and user ID are loaded from function User().username and User().email
