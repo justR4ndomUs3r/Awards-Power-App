@@ -8,7 +8,7 @@ Fill the fields as provided
   
   adminID: daniel.sz@dompany.co or mark.twin@company.co
   
-  TriggerFlow: <just leave it, it's not needed in dev env>
+  TriggerFlow: [just leave it, it's not needed in dev env]
   
   Awards: [Make sure this field is empty and app will load default awards or paste value from the awards.txt file]
   
