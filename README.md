@@ -4,9 +4,9 @@ Fill the fields as provided
   
   username: Daniel
   
-  userID: daniel.sz@dompany.co or mark.twin@company.co
+  userID: daniel.sz@company.co or mark.twin@company.co
   
-  adminID: daniel.sz@dompany.co or mark.twin@company.co
+  adminID: daniel.sz@company.co or mark.twin@company.co
   
   TriggerFlow: [just leave it, it's not needed in dev env]
   
